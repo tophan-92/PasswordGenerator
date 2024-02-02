@@ -7,6 +7,6 @@ public class Main {
     public static void main(String[] args) {
         Generator generator = new Generator(keyboard); //new object created
         generator.mainLoop();  // loop to generate new password
-        keyboard.close();
+        keyboard.close();  // close board
     }
 }
