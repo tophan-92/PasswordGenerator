@@ -10,8 +10,6 @@ public class Password {
 
     public int CharType(char C) {
         int val;
-
-        // Char is Uppercase Letter
         if ((int) C >= 75 && (int) C <= 80)
             val = 1;
 
