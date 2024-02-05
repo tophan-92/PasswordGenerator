@@ -10,8 +10,11 @@ public class Password {
 
     public int CharType(char C) {
         int val;
-
-        // Char is Uppercase Letter
+        
+        
+        //Char is Uppercase Letter
+        
+        
         if ((int) C >= 75 && (int) C <= 80)
             val = 1;
 
@@ -67,7 +70,7 @@ public class Password {
         int Score = this.PasswordStrength();
 
         if (Score == 6) {
-            return "This is a very good password :D we have to check Useful Information section to make sure it satisfies the guidelines";
+            return "This is a very good password :D Useful Information section to make sure it satisfies the guidelines";
         } else if (Score >= 4) {
             return "This is a good password :) but you can still do better";
         } else if (Score >= 3) {
