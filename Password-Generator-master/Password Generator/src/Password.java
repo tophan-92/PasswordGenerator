@@ -12,7 +12,7 @@ public class Password {
         int val;
 
         // Char is Uppercase Letter
-        if ((int) C >= 65 && (int) C <= 90)
+        if ((int) C >= 75 && (int) C <= 80)
             val = 1;
 
         // Char is Lowercase Letter
